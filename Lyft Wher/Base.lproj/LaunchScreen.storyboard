@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NYSKYLINE" translatesAutoresizingMaskIntoConstraints="NO" id="cp0-mz-fBP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u61-Hw-m9D">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lY8-jm-LHk">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wherLogo" translatesAutoresizingMaskIntoConstraints="NO" id="i5R-iM-UBt">
+                                <rect key="frame" x="10" y="100" width="355" height="182"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="182" id="zPv-it-o8y"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHY-A1-oXh">
+                                <rect key="frame" x="188" y="292" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Harding © 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q58-1r-0lx">
+                                <rect key="frame" x="93.5" y="573" width="188" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j4E-k2-1Xy">
+                                <rect key="frame" x="0.0" y="292" width="375" height="281"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PennApps XVI Best Use of Lyft API Winner" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVO-PD-lzE">
+                                        <rect key="frame" x="63" y="115.5" width="250" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="3IA-e4-Q5y"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="nVO-PD-lzE" firstAttribute="centerY" secondItem="j4E-k2-1Xy" secondAttribute="centerY" id="45S-Zd-YbM"/>
+                                    <constraint firstItem="nVO-PD-lzE" firstAttribute="centerX" secondItem="j4E-k2-1Xy" secondAttribute="centerX" id="nZd-r3-AFg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="i5R-iM-UBt" secondAttribute="trailing" constant="10" id="9Bb-3y-33M"/>
+                            <constraint firstItem="Q58-1r-0lx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9SW-pD-2vo"/>
+                            <constraint firstItem="i5R-iM-UBt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="P0u-8Z-kue"/>
+                            <constraint firstItem="kHY-A1-oXh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PZA-Bg-VGo"/>
+                            <constraint firstItem="i5R-iM-UBt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="10" id="Pq6-Ug-O7Z"/>
+                            <constraint firstItem="j4E-k2-1Xy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QQe-LY-FaJ"/>
+                            <constraint firstItem="Q58-1r-0lx" firstAttribute="top" secondItem="j4E-k2-1Xy" secondAttribute="bottom" id="QZ5-WH-lGs"/>
+                            <constraint firstItem="u61-Hw-m9D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TP4-Fh-Owe"/>
+                            <constraint firstItem="u61-Hw-m9D" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Wpd-p5-rpf"/>
+                            <constraint firstItem="cp0-mz-fBP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="fzR-Cl-rPA"/>
+                            <constraint firstItem="j4E-k2-1Xy" firstAttribute="top" secondItem="i5R-iM-UBt" secondAttribute="bottom" constant="10" id="h9O-0a-Kvg"/>
+                            <constraint firstItem="kHY-A1-oXh" firstAttribute="top" secondItem="i5R-iM-UBt" secondAttribute="bottom" constant="10" id="hFK-3o-FIi"/>
+                            <constraint firstItem="i5R-iM-UBt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hdF-cO-b9N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Q58-1r-0lx" secondAttribute="bottom" constant="70" id="hmi-E3-nkA"/>
+                            <constraint firstItem="j4E-k2-1Xy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ibP-gd-VHM"/>
+                            <constraint firstItem="cp0-mz-fBP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="m2S-8T-nmY"/>
+                            <constraint firstItem="cp0-mz-fBP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nBg-MV-Lw5"/>
+                            <constraint firstItem="u61-Hw-m9D" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="pg1-wm-quF"/>
+                            <constraint firstItem="u61-Hw-m9D" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="sFq-i1-eso"/>
+                            <constraint firstItem="cp0-mz-fBP" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="uiT-fF-9J8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="NYSKYLINE" width="1920" height="1080"/>
+        <image name="wherLogo" width="1024" height="1024"/>
+    </resources>
+</document>
