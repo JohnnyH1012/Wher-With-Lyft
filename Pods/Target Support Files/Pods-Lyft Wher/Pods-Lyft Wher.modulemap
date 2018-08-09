@@ -1,0 +1,6 @@
+framework module Pods_Lyft_Wher {
+  umbrella header "Pods-Lyft Wher-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00229DEBB3FE1990EAD7405827E01710 /* Pods-Lyft Wher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D9A8AA04B3276D6C15B3D446B1C6C /* Pods-Lyft Wher-dummy.m */; };
+		012766A93B3868A703E5708086AB8600 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D81F4EE6B8DEF63FE4DAD347B80EC5 /* UIColor+Extension.swift */; };
+		040FB42D124FC848B76F2421107260C1 /* Pods-Lyft WherUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C4D9A3C2E69EEFBFB883A175FD08C7 /* Pods-Lyft WherUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0860A2ED06AEAAFD6D59BDC2C9C10DFE /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037AC915F35FFDF28CAAE2FBBB990D9 /* Asset.swift */; };
+		0C0F6EFD33775E76C607ABD63B22F5D3 /* LyftButtonFull.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ABF3AD1245DE642ED3FC55D2986D99E /* LyftButtonFull.xib */; };
+		0F7A14A0D6DD9E443ECBFBB6211200A0 /* LyftConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D0026D10AE94000C324646C7C9A0D6 /* LyftConfiguration.swift */; };
+		1CD1C33B98227BD8AFF95D7A59A95509 /* LyftSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC39AAD33DCC954EA24C8126F3C36E9 /* LyftSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DB35ED6F6EE001854C222E20437F4 /* LyftAPIURLEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA70BD06CE1940A07ECD89BE42F0EA9 /* LyftAPIURLEncoding.swift */; };
+		4357B234887190D377DA51A319E1328C /* I18N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E5AB00A4170E03C31B23DB6ABF921 /* I18N.swift */; };
+		4E2AD070F88558D8210AF02C55E7C0FA /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 66F528A39FD4EFA8A26131F4733F37CE /* en.lproj */; };
+		50A98F5CAB1387E6DAA34DBCCAF04970 /* CLLocationCoordinate2D+JSONMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78365D8C545008D4733A47BDE9BE04D /* CLLocationCoordinate2D+JSONMappable.swift */; };
+		5CE500521E4289A0438BA594DCBF6A66 /* NearbyDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6EEABDEF12EC725FDE8234AD7A8A25 /* NearbyDriver.swift */; };
+		5E75CCD8244B7D8F5DE79918D34AD3A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6119E60336D4DE8EBCD2377FB0B4964F /* Safari.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946C6E61F0E8BFD5CBE7812C12C7BBA /* Safari.swift */; };
+		613734E56EEB0E516ADC700177678ADC /* APIRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BCF0AB9BF31BBEF4674588AE209808 /* APIRoute.swift */; };
+		617575B1EEB50B8A9A7E7E7E6BDE57A5 /* Money+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED3FB6C0718B9CB400566206A3A1756 /* Money+UI.swift */; };
+		62F39E6A362DB19FD5413B56733B7F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6556F6C84D2BE571FEE3AA8BEB3CBB5F /* LyftAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8427A9F6742862F587F7E3328C9EA5 /* LyftAPI.swift */; };
+		67DC0A381098CAC04FD7C0E5013A77A5 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6104F515AB35568536DAAD539210EA1 /* Money.swift */; };
+		68757C3CC0886F82B415D5910FEF2C83 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A729793E16A08A9482FC7B9A4554DC1 /* Bundle+Extension.swift */; };
+		752B3251975C7390D0DB11C07F2AAE5A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DA65E770055C145C7CE8F7FEEFCCD5 /* Result.swift */; };
+		7F5855A9BAACF358BFE02F0E253F2592 /* Pods-Lyft WherTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6723F78BDE03B32F7B67A429D8A5869 /* Pods-Lyft WherTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		804001D6891DDDB3B600BDC9403E1EF5 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D889FF0B6AD6E241948391FEABC1C7 /* HTTPClient.swift */; };
+		8168D98313B8FF43561C4C9B531000E4 /* LyftButtonNone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBAAE6D0D94F0F854D99A1D65CA27B2 /* LyftButtonNone.xib */; };
+		9029C25A38302FAE983F9F2AE76598CA /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEFF0194B33A1C3BA838A6D81DE472F /* Button.swift */; };
+		9695DFC388E47C92990C75435DCE399F /* JSONMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B50ACE68BE1CB8ACD610B19CF241A /* JSONMappable.swift */; };
+		9C5AEA8B5E9A8440932C94564300F730 /* LyftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BA2FF9D8E47B5F7738096B02DBF09 /* LyftButton.swift */; };
+		A17DF23968E39606993C5FE3903823BB /* RideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED59CEC98F77D9EAC8E4B1F78D239DEA /* RideType.swift */; };
+		A2EC57E189B65E22AAF52C8989A7947D /* PricingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8B3434A5C949C18910042755138A1 /* PricingDetails.swift */; };
+		A4B2F2862886DF14CFB84774BE55A76E /* LyftButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B3957D56D118A29BA942D4D307D45 /* LyftButtonStyle.swift */; };
+		A7AD19497BB9D07E220F560F70B9890F /* Pods-Lyft WherTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F530D88CA0BF61E3047374165A46C41D /* Pods-Lyft WherTests-dummy.m */; };
+		B2911C4432CAEB7B56483FB0A9DBBF96 /* LyftButtonRideTypeETA.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414F92D07E39E09A51933EBC3A4D7E6E /* LyftButtonRideTypeETA.xib */; };
+		B665C916B45382D9333952567E8E94C5 /* LyftAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0890094B54751D8A5938CEFD6D3098 /* LyftAPIError.swift */; };
+		B81405BF543ED3641342B1D3F0209BA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBFC527CE68022B687DE638931077A6 /* Images.xcassets */; };
+		B9D7A5DE33611AB0FC3D075B45EF4E80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CCB5EEF2EBCB66957735B5884037DCA9 /* RideKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A289B6E4E08BF2B757BE52FE5148CF6 /* RideKind.swift */; };
+		D04DA550CF798A051ABC0EC61537CD79 /* ETA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA65199CC6AB621A2C8DEE095B7B74 /* ETA.swift */; };
+		D39063F685B0CB3C3843E6D007AE9591 /* Cost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E636808E7B451459E1EEB96F3D3EA9F /* Cost.swift */; };
+		D86C7F8D25C835211B253F00BBB7F4CE /* LyftDeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB30E2BBCEAA649C70B1ABD012D589E6 /* LyftDeepLink.swift */; };
+		EA6DDA7C93581F70A094551E56BD9084 /* Pods-Lyft Wher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF136199C9FBBF7AFCC931FF33240BC3 /* Pods-Lyft Wher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9CDE74246D0C4A252A25C219435458 /* Pods-Lyft WherUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF27F80B07B3F733401646740E3DBC4A /* Pods-Lyft WherUITests-dummy.m */; };
+		FA0855C0037B87BA6CDF3C3158659641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA0A8F6DF999243A8CD022C949252ED7 /* LyftSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D866EFCBDBAA10FE2B40B8C16B88E /* LyftSDK-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A063854B4400DF54869EB6ED98038C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2C869C1D1CC53E1F4B85F7AAEEE1A0;
+			remoteInfo = LyftSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EC59B4AF5E52D97986202AE497C893 /* Pods-Lyft Wher-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lyft Wher-acknowledgements.plist"; sourceTree = "<group>"; };
+		17D81F4EE6B8DEF63FE4DAD347B80EC5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "Sources/LyftUI/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		1A9B50ACE68BE1CB8ACD610B19CF241A /* JSONMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONMappable.swift; path = Sources/LyftAPI/JSONMappable.swift; sourceTree = "<group>"; };
+		2037AC915F35FFDF28CAAE2FBBB990D9 /* Asset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asset.swift; path = Sources/LyftUI/Asset.swift; sourceTree = "<group>"; };
+		228F85119E9762DA4044AEBAAC3E7993 /* LyftSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LyftSDK-prefix.pch"; sourceTree = "<group>"; };
+		28471BD8BB56AA82CE0050B94F5CAB1E /* Pods_Lyft_Wher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lyft_Wher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A729793E16A08A9482FC7B9A4554DC1 /* Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "Sources/LyftAPI/Bundle+Extension.swift"; sourceTree = "<group>"; };
+		2BBFC527CE68022B687DE638931077A6 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Sources/LyftUI/Resources/Images.xcassets; sourceTree = "<group>"; };
+		2D6DA828A723E08B50285B79C3E26EE6 /* Pods-Lyft Wher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lyft Wher.debug.xcconfig"; sourceTree = "<group>"; };
+		34BCF0AB9BF31BBEF4674588AE209808 /* APIRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIRoute.swift; path = Sources/LyftAPI/APIRoute.swift; sourceTree = "<group>"; };
+		39DA65199CC6AB621A2C8DEE095B7B74 /* ETA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ETA.swift; path = Sources/LyftModels/ETA.swift; sourceTree = "<group>"; };
+		3A289B6E4E08BF2B757BE52FE5148CF6 /* RideKind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideKind.swift; path = Sources/LyftModels/RideKind.swift; sourceTree = "<group>"; };
+		3B6EEABDEF12EC725FDE8234AD7A8A25 /* NearbyDriver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NearbyDriver.swift; path = Sources/LyftModels/NearbyDriver.swift; sourceTree = "<group>"; };
+		3F3CB080D886B225A9566C4FF581B169 /* Pods-Lyft WherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lyft WherTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F8427A9F6742862F587F7E3328C9EA5 /* LyftAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LyftAPI.swift; path = Sources/LyftAPI/LyftAPI.swift; sourceTree = "<group>"; };
+		3FFF58F610C68294BD44BBCE3426AB0A /* Pods-Lyft WherUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lyft WherUITests-frameworks.sh"; sourceTree = "<group>"; };
+		414F92D07E39E09A51933EBC3A4D7E6E /* LyftButtonRideTypeETA.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LyftButtonRideTypeETA.xib; path = Sources/LyftUI/Resources/LyftButtonRideTypeETA.xib; sourceTree = "<group>"; };
+		479A3BF87B493B75808C15D3DC6A7DF5 /* Pods-Lyft WherUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Lyft WherUITests.modulemap"; sourceTree = "<group>"; };
+		48DA65E770055C145C7CE8F7FEEFCCD5 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/LyftAPI/Result.swift; sourceTree = "<group>"; };
+		4ABF3AD1245DE642ED3FC55D2986D99E /* LyftButtonFull.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LyftButtonFull.xib; path = Sources/LyftUI/Resources/LyftButtonFull.xib; sourceTree = "<group>"; };
+		4DB98F3327086E32C7DE1F9C0C809B8B /* Pods_Lyft_WherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lyft_WherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D0026D10AE94000C324646C7C9A0D6 /* LyftConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LyftConfiguration.swift; path = Sources/LyftAPI/LyftConfiguration.swift; sourceTree = "<group>"; };
+		56B49B6EFF8A749BB5DA9C3C6E2CB200 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AEFF0194B33A1C3BA838A6D81DE472F /* Button.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Button.swift; path = Sources/LyftUI/Button.swift; sourceTree = "<group>"; };
+		5F1D9A8AA04B3276D6C15B3D446B1C6C /* Pods-Lyft Wher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lyft Wher-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66F528A39FD4EFA8A26131F4733F37CE /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Sources/LyftUI/Resources/en.lproj; sourceTree = "<group>"; };
+		6A38D7223A2914EAEA92F0BF87B46D5E /* Pods-Lyft Wher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Lyft Wher.modulemap"; sourceTree = "<group>"; };
+		6ED3FB6C0718B9CB400566206A3A1756 /* Money+UI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Money+UI.swift"; path = "Sources/LyftUI/Money+UI.swift"; sourceTree = "<group>"; };
+		7003321286463380B02B0E4A445F432F /* Pods-Lyft Wher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lyft Wher.release.xcconfig"; sourceTree = "<group>"; };
+		743BA2FF9D8E47B5F7738096B02DBF09 /* LyftButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LyftButton.swift; path = Sources/LyftUI/LyftButton.swift; sourceTree = "<group>"; };
+		7476CF0EEBB686E5652439651F37CA51 /* Pods-Lyft Wher-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lyft Wher-frameworks.sh"; sourceTree = "<group>"; };
+		794D27E96725084D9085CD745BF799F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC90DBD77BB5A871750D365F8B8B5C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2FD159A683EA48DC26573C3EAD583C /* Pods-Lyft Wher-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lyft Wher-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E1DDDE35FDBAF17AC69CCA06205473C /* Pods_Lyft_WherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lyft_WherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		886E5AB00A4170E03C31B23DB6ABF921 /* I18N.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = I18N.swift; path = Sources/LyftUI/I18N.swift; sourceTree = "<group>"; };
+		89C4D9A3C2E69EEFBFB883A175FD08C7 /* Pods-Lyft WherUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lyft WherUITests-umbrella.h"; sourceTree = "<group>"; };
+		8DBAAE6D0D94F0F854D99A1D65CA27B2 /* LyftButtonNone.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LyftButtonNone.xib; path = Sources/LyftUI/Resources/LyftButtonNone.xib; sourceTree = "<group>"; };
+		8DC39AAD33DCC954EA24C8126F3C36E9 /* LyftSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LyftSDK-umbrella.h"; sourceTree = "<group>"; };
+		8E636808E7B451459E1EEB96F3D3EA9F /* Cost.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cost.swift; path = Sources/LyftModels/Cost.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98D385B935406198C847F0458E9B18AB /* Pods-Lyft WherTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lyft WherTests-frameworks.sh"; sourceTree = "<group>"; };
+		9DCDBC44C218A4B62037E2DAEE7F9954 /* Pods-Lyft WherUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lyft WherUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E6D866EFCBDBAA10FE2B40B8C16B88E /* LyftSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LyftSDK-dummy.m"; sourceTree = "<group>"; };
+		A78365D8C545008D4733A47BDE9BE04D /* CLLocationCoordinate2D+JSONMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLLocationCoordinate2D+JSONMappable.swift"; path = "Sources/LyftModels/CLLocationCoordinate2D+JSONMappable.swift"; sourceTree = "<group>"; };
+		A78BCF77DD4B800BC0E1D92C166C7094 /* Pods-Lyft WherTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Lyft WherTests.modulemap"; sourceTree = "<group>"; };
+		A87D95BFDDCD79B8E3AC2C785E3DB6A0 /* Pods-Lyft WherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lyft WherUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8DA4D679EA5D73EFC1CE89B44826DB7 /* LyftSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LyftSDK.modulemap; sourceTree = "<group>"; };
+		A946C6E61F0E8BFD5CBE7812C12C7BBA /* Safari.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Safari.swift; path = Sources/LyftUI/Safari.swift; sourceTree = "<group>"; };
+		ACB542D32CD1D6D33AE945141BD21660 /* Pods-Lyft WherTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lyft WherTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD363C03B4D0253370D16D94A6024E10 /* Pods-Lyft WherUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lyft WherUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4176E2BF962CC34BC9892CA65EA2D1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68C512229FB070F45B515A5B2CADD57 /* LyftSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LyftSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AA512BB1FBA1709307B9E49B531875 /* Pods-Lyft WherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lyft WherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC8ABBA765BFCB15BDBC12B19FE878A7 /* Pods-Lyft WherUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lyft WherUITests-resources.sh"; sourceTree = "<group>"; };
+		BF0890094B54751D8A5938CEFD6D3098 /* LyftAPIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LyftAPIError.swift; path = Sources/LyftAPI/LyftAPIError.swift; sourceTree = "<group>"; };
+		C3E7AC2486D9E004FB2E8983B869B46C /* LyftSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LyftSDK.xcconfig; sourceTree = "<group>"; };
+		CB30E2BBCEAA649C70B1ABD012D589E6 /* LyftDeepLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LyftDeepLink.swift; path = Sources/LyftUI/LyftDeepLink.swift; sourceTree = "<group>"; };
+		CF136199C9FBBF7AFCC931FF33240BC3 /* Pods-Lyft Wher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lyft Wher-umbrella.h"; sourceTree = "<group>"; };
+		D472C0A3A9D7A8449B516D89EAEDD262 /* Pods-Lyft WherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lyft WherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6104F515AB35568536DAAD539210EA1 /* Money.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Money.swift; path = Sources/LyftModels/Money.swift; sourceTree = "<group>"; };
+		DAA70BD06CE1940A07ECD89BE42F0EA9 /* LyftAPIURLEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LyftAPIURLEncoding.swift; path = Sources/LyftAPI/LyftAPIURLEncoding.swift; sourceTree = "<group>"; };
+		E14E5DC67D595C2716E415BBFBE2F92E /* Pods-Lyft WherTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lyft WherTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6723F78BDE03B32F7B67A429D8A5869 /* Pods-Lyft WherTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lyft WherTests-umbrella.h"; sourceTree = "<group>"; };
+		E6A8B3434A5C949C18910042755138A1 /* PricingDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PricingDetails.swift; path = Sources/LyftModels/PricingDetails.swift; sourceTree = "<group>"; };
+		ED59CEC98F77D9EAC8E4B1F78D239DEA /* RideType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideType.swift; path = Sources/LyftModels/RideType.swift; sourceTree = "<group>"; };
+		EE3A26D52BE9BA0AE975A328E1135E0C /* Pods-Lyft WherTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lyft WherTests-resources.sh"; sourceTree = "<group>"; };
+		EEF70D70CC8A2C459035E5F3F3998CA4 /* Pods-Lyft Wher-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lyft Wher-resources.sh"; sourceTree = "<group>"; };
+		EF27F80B07B3F733401646740E3DBC4A /* Pods-Lyft WherUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lyft WherUITests-dummy.m"; sourceTree = "<group>"; };
+		F530D88CA0BF61E3047374165A46C41D /* Pods-Lyft WherTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lyft WherTests-dummy.m"; sourceTree = "<group>"; };
+		F6D889FF0B6AD6E241948391FEABC1C7 /* HTTPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPClient.swift; path = Sources/LyftAPI/HTTPClient.swift; sourceTree = "<group>"; };
+		FA6B3957D56D118A29BA942D4D307D45 /* LyftButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LyftButtonStyle.swift; path = Sources/LyftUI/LyftButtonStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08BF494FFB66CF0E5CAA815570A2C389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0855C0037B87BA6CDF3C3158659641 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752F3D968E2F0F4E6841BAC76E767CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F39E6A362DB19FD5413B56733B7F6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A781B95DB9BDE4D35E613151288DDA79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D7A5DE33611AB0FC3D075B45EF4E80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D43902BD87C04FC196D31F035C40DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E75CCD8244B7D8F5DE79918D34AD3A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018F681EAE4B6F7C57631F5617D47839 /* Pods-Lyft Wher */ = {
+			isa = PBXGroup;
+			children = (
+				794D27E96725084D9085CD745BF799F4 /* Info.plist */,
+				6A38D7223A2914EAEA92F0BF87B46D5E /* Pods-Lyft Wher.modulemap */,
+				7D2FD159A683EA48DC26573C3EAD583C /* Pods-Lyft Wher-acknowledgements.markdown */,
+				04EC59B4AF5E52D97986202AE497C893 /* Pods-Lyft Wher-acknowledgements.plist */,
+				5F1D9A8AA04B3276D6C15B3D446B1C6C /* Pods-Lyft Wher-dummy.m */,
+				7476CF0EEBB686E5652439651F37CA51 /* Pods-Lyft Wher-frameworks.sh */,
+				EEF70D70CC8A2C459035E5F3F3998CA4 /* Pods-Lyft Wher-resources.sh */,
+				CF136199C9FBBF7AFCC931FF33240BC3 /* Pods-Lyft Wher-umbrella.h */,
+				2D6DA828A723E08B50285B79C3E26EE6 /* Pods-Lyft Wher.debug.xcconfig */,
+				7003321286463380B02B0E4A445F432F /* Pods-Lyft Wher.release.xcconfig */,
+			);
+			name = "Pods-Lyft Wher";
+			path = "Target Support Files/Pods-Lyft Wher";
+			sourceTree = "<group>";
+		};
+		1DC7FE46FF00BAD46AC47157292CD8F5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				34BCF0AB9BF31BBEF4674588AE209808 /* APIRoute.swift */,
+				2037AC915F35FFDF28CAAE2FBBB990D9 /* Asset.swift */,
+				2A729793E16A08A9482FC7B9A4554DC1 /* Bundle+Extension.swift */,
+				5AEFF0194B33A1C3BA838A6D81DE472F /* Button.swift */,
+				A78365D8C545008D4733A47BDE9BE04D /* CLLocationCoordinate2D+JSONMappable.swift */,
+				8E636808E7B451459E1EEB96F3D3EA9F /* Cost.swift */,
+				39DA65199CC6AB621A2C8DEE095B7B74 /* ETA.swift */,
+				F6D889FF0B6AD6E241948391FEABC1C7 /* HTTPClient.swift */,
+				886E5AB00A4170E03C31B23DB6ABF921 /* I18N.swift */,
+				1A9B50ACE68BE1CB8ACD610B19CF241A /* JSONMappable.swift */,
+				3F8427A9F6742862F587F7E3328C9EA5 /* LyftAPI.swift */,
+				BF0890094B54751D8A5938CEFD6D3098 /* LyftAPIError.swift */,
+				DAA70BD06CE1940A07ECD89BE42F0EA9 /* LyftAPIURLEncoding.swift */,
+				743BA2FF9D8E47B5F7738096B02DBF09 /* LyftButton.swift */,
+				FA6B3957D56D118A29BA942D4D307D45 /* LyftButtonStyle.swift */,
+				50D0026D10AE94000C324646C7C9A0D6 /* LyftConfiguration.swift */,
+				CB30E2BBCEAA649C70B1ABD012D589E6 /* LyftDeepLink.swift */,
+				D6104F515AB35568536DAAD539210EA1 /* Money.swift */,
+				6ED3FB6C0718B9CB400566206A3A1756 /* Money+UI.swift */,
+				3B6EEABDEF12EC725FDE8234AD7A8A25 /* NearbyDriver.swift */,
+				E6A8B3434A5C949C18910042755138A1 /* PricingDetails.swift */,
+				48DA65E770055C145C7CE8F7FEEFCCD5 /* Result.swift */,
+				3A289B6E4E08BF2B757BE52FE5148CF6 /* RideKind.swift */,
+				ED59CEC98F77D9EAC8E4B1F78D239DEA /* RideType.swift */,
+				A946C6E61F0E8BFD5CBE7812C12C7BBA /* Safari.swift */,
+				17D81F4EE6B8DEF63FE4DAD347B80EC5 /* UIColor+Extension.swift */,
+				DC31E8B1B033FCA8420534BB77255F68 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3E75F34856D0519F7F8434FBA84F0068 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				979C02CFE9DABC8D9058D9A8D83C49A8 /* LyftSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D976D70136F853A4C3A230F7916FE25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B68C512229FB070F45B515A5B2CADD57 /* LyftSDK.framework */,
+				28471BD8BB56AA82CE0050B94F5CAB1E /* Pods_Lyft_Wher.framework */,
+				7E1DDDE35FDBAF17AC69CCA06205473C /* Pods_Lyft_WherTests.framework */,
+				4DB98F3327086E32C7DE1F9C0C809B8B /* Pods_Lyft_WherUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3E75F34856D0519F7F8434FBA84F0068 /* Pods */,
+				6D976D70136F853A4C3A230F7916FE25 /* Products */,
+				DE15D64611A4B0EFF6D73C771FAD5405 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		866764C8778603BA5702A9FEAFCF493C /* Pods-Lyft WherTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4176E2BF962CC34BC9892CA65EA2D1A /* Info.plist */,
+				A78BCF77DD4B800BC0E1D92C166C7094 /* Pods-Lyft WherTests.modulemap */,
+				E14E5DC67D595C2716E415BBFBE2F92E /* Pods-Lyft WherTests-acknowledgements.markdown */,
+				ACB542D32CD1D6D33AE945141BD21660 /* Pods-Lyft WherTests-acknowledgements.plist */,
+				F530D88CA0BF61E3047374165A46C41D /* Pods-Lyft WherTests-dummy.m */,
+				98D385B935406198C847F0458E9B18AB /* Pods-Lyft WherTests-frameworks.sh */,
+				EE3A26D52BE9BA0AE975A328E1135E0C /* Pods-Lyft WherTests-resources.sh */,
+				E6723F78BDE03B32F7B67A429D8A5869 /* Pods-Lyft WherTests-umbrella.h */,
+				B8AA512BB1FBA1709307B9E49B531875 /* Pods-Lyft WherTests.debug.xcconfig */,
+				3F3CB080D886B225A9566C4FF581B169 /* Pods-Lyft WherTests.release.xcconfig */,
+			);
+			name = "Pods-Lyft WherTests";
+			path = "Target Support Files/Pods-Lyft WherTests";
+			sourceTree = "<group>";
+		};
+		89E94CD114374716B764E820794F226D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56B49B6EFF8A749BB5DA9C3C6E2CB200 /* Info.plist */,
+				A8DA4D679EA5D73EFC1CE89B44826DB7 /* LyftSDK.modulemap */,
+				C3E7AC2486D9E004FB2E8983B869B46C /* LyftSDK.xcconfig */,
+				9E6D866EFCBDBAA10FE2B40B8C16B88E /* LyftSDK-dummy.m */,
+				228F85119E9762DA4044AEBAAC3E7993 /* LyftSDK-prefix.pch */,
+				8DC39AAD33DCC954EA24C8126F3C36E9 /* LyftSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LyftSDK";
+			sourceTree = "<group>";
+		};
+		8F587BA4E7D124629123265454B55081 /* Pods-Lyft WherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BC90DBD77BB5A871750D365F8B8B5C9 /* Info.plist */,
+				479A3BF87B493B75808C15D3DC6A7DF5 /* Pods-Lyft WherUITests.modulemap */,
+				AD363C03B4D0253370D16D94A6024E10 /* Pods-Lyft WherUITests-acknowledgements.markdown */,
+				9DCDBC44C218A4B62037E2DAEE7F9954 /* Pods-Lyft WherUITests-acknowledgements.plist */,
+				EF27F80B07B3F733401646740E3DBC4A /* Pods-Lyft WherUITests-dummy.m */,
+				3FFF58F610C68294BD44BBCE3426AB0A /* Pods-Lyft WherUITests-frameworks.sh */,
+				BC8ABBA765BFCB15BDBC12B19FE878A7 /* Pods-Lyft WherUITests-resources.sh */,
+				89C4D9A3C2E69EEFBFB883A175FD08C7 /* Pods-Lyft WherUITests-umbrella.h */,
+				D472C0A3A9D7A8449B516D89EAEDD262 /* Pods-Lyft WherUITests.debug.xcconfig */,
+				A87D95BFDDCD79B8E3AC2C785E3DB6A0 /* Pods-Lyft WherUITests.release.xcconfig */,
+			);
+			name = "Pods-Lyft WherUITests";
+			path = "Target Support Files/Pods-Lyft WherUITests";
+			sourceTree = "<group>";
+		};
+		979C02CFE9DABC8D9058D9A8D83C49A8 /* LyftSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1DC7FE46FF00BAD46AC47157292CD8F5 /* Core */,
+				89E94CD114374716B764E820794F226D /* Support Files */,
+			);
+			path = LyftSDK;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC31E8B1B033FCA8420534BB77255F68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66F528A39FD4EFA8A26131F4733F37CE /* en.lproj */,
+				2BBFC527CE68022B687DE638931077A6 /* Images.xcassets */,
+				4ABF3AD1245DE642ED3FC55D2986D99E /* LyftButtonFull.xib */,
+				8DBAAE6D0D94F0F854D99A1D65CA27B2 /* LyftButtonNone.xib */,
+				414F92D07E39E09A51933EBC3A4D7E6E /* LyftButtonRideTypeETA.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DE15D64611A4B0EFF6D73C771FAD5405 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				018F681EAE4B6F7C57631F5617D47839 /* Pods-Lyft Wher */,
+				866764C8778603BA5702A9FEAFCF493C /* Pods-Lyft WherTests */,
+				8F587BA4E7D124629123265454B55081 /* Pods-Lyft WherUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28D299D47E19BF2EB4AB698E9929F53E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6DDA7C93581F70A094551E56BD9084 /* Pods-Lyft Wher-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AD61C04CA31ACF7D83612E1327EFC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD1C33B98227BD8AFF95D7A59A95509 /* LyftSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DDCAE7F3A698835B185C6237C8E13B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040FB42D124FC848B76F2421107260C1 /* Pods-Lyft WherUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AD9C722982C616477C132F3B836DF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5855A9BAACF358BFE02F0E253F2592 /* Pods-Lyft WherTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26BF5612621570E200B4223553A0F41A /* Pods-Lyft WherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19957D6A07B6B7E81F020066E714196 /* Build configuration list for PBXNativeTarget "Pods-Lyft WherUITests" */;
+			buildPhases = (
+				E8F59A72CA0EB85F5A6039C51A57B116 /* Sources */,
+				08BF494FFB66CF0E5CAA815570A2C389 /* Frameworks */,
+				E6DDCAE7F3A698835B185C6237C8E13B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Lyft WherUITests";
+			productName = "Pods-Lyft WherUITests";
+			productReference = 4DB98F3327086E32C7DE1F9C0C809B8B /* Pods_Lyft_WherUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B2C869C1D1CC53E1F4B85F7AAEEE1A0 /* LyftSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB89FA70E39D93ED1F0F30D5201964F5 /* Build configuration list for PBXNativeTarget "LyftSDK" */;
+			buildPhases = (
+				67752F981CC9C0293CD8693CA1DF7A26 /* Sources */,
+				A781B95DB9BDE4D35E613151288DDA79 /* Frameworks */,
+				9325CD938D121581A7A9E28E275C6253 /* Resources */,
+				C9AD61C04CA31ACF7D83612E1327EFC7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyftSDK;
+			productName = LyftSDK;
+			productReference = B68C512229FB070F45B515A5B2CADD57 /* LyftSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C58F04F1615D19DC93E44A9658176137 /* Pods-Lyft WherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F420D73AC440091531FA49890EAAA2B3 /* Build configuration list for PBXNativeTarget "Pods-Lyft WherTests" */;
+			buildPhases = (
+				D0070F96CF357EFDE129D57F2FFE2331 /* Sources */,
+				752F3D968E2F0F4E6841BAC76E767CB4 /* Frameworks */,
+				F3AD9C722982C616477C132F3B836DF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Lyft WherTests";
+			productName = "Pods-Lyft WherTests";
+			productReference = 7E1DDDE35FDBAF17AC69CCA06205473C /* Pods_Lyft_WherTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6D0B38F0AE5394899D6247A15F81D94 /* Pods-Lyft Wher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE467D55160742B2817B192FCC8A8F91 /* Build configuration list for PBXNativeTarget "Pods-Lyft Wher" */;
+			buildPhases = (
+				8B3C9472A114155742E5E18A84C8AD03 /* Sources */,
+				C5D43902BD87C04FC196D31F035C40DD /* Frameworks */,
+				28D299D47E19BF2EB4AB698E9929F53E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BB87CEAC0E83A6C452DAAFE61110EA1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Lyft Wher";
+			productName = "Pods-Lyft Wher";
+			productReference = 28471BD8BB56AA82CE0050B94F5CAB1E /* Pods_Lyft_Wher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6D976D70136F853A4C3A230F7916FE25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B2C869C1D1CC53E1F4B85F7AAEEE1A0 /* LyftSDK */,
+				C6D0B38F0AE5394899D6247A15F81D94 /* Pods-Lyft Wher */,
+				C58F04F1615D19DC93E44A9658176137 /* Pods-Lyft WherTests */,
+				26BF5612621570E200B4223553A0F41A /* Pods-Lyft WherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9325CD938D121581A7A9E28E275C6253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2AD070F88558D8210AF02C55E7C0FA /* en.lproj in Resources */,
+				B81405BF543ED3641342B1D3F0209BA5 /* Images.xcassets in Resources */,
+				0C0F6EFD33775E76C607ABD63B22F5D3 /* LyftButtonFull.xib in Resources */,
+				8168D98313B8FF43561C4C9B531000E4 /* LyftButtonNone.xib in Resources */,
+				B2911C4432CAEB7B56483FB0A9DBBF96 /* LyftButtonRideTypeETA.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67752F981CC9C0293CD8693CA1DF7A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613734E56EEB0E516ADC700177678ADC /* APIRoute.swift in Sources */,
+				0860A2ED06AEAAFD6D59BDC2C9C10DFE /* Asset.swift in Sources */,
+				68757C3CC0886F82B415D5910FEF2C83 /* Bundle+Extension.swift in Sources */,
+				9029C25A38302FAE983F9F2AE76598CA /* Button.swift in Sources */,
+				50A98F5CAB1387E6DAA34DBCCAF04970 /* CLLocationCoordinate2D+JSONMappable.swift in Sources */,
+				D39063F685B0CB3C3843E6D007AE9591 /* Cost.swift in Sources */,
+				D04DA550CF798A051ABC0EC61537CD79 /* ETA.swift in Sources */,
+				804001D6891DDDB3B600BDC9403E1EF5 /* HTTPClient.swift in Sources */,
+				4357B234887190D377DA51A319E1328C /* I18N.swift in Sources */,
+				9695DFC388E47C92990C75435DCE399F /* JSONMappable.swift in Sources */,
+				6556F6C84D2BE571FEE3AA8BEB3CBB5F /* LyftAPI.swift in Sources */,
+				B665C916B45382D9333952567E8E94C5 /* LyftAPIError.swift in Sources */,
+				348DB35ED6F6EE001854C222E20437F4 /* LyftAPIURLEncoding.swift in Sources */,
+				9C5AEA8B5E9A8440932C94564300F730 /* LyftButton.swift in Sources */,
+				A4B2F2862886DF14CFB84774BE55A76E /* LyftButtonStyle.swift in Sources */,
+				0F7A14A0D6DD9E443ECBFBB6211200A0 /* LyftConfiguration.swift in Sources */,
+				D86C7F8D25C835211B253F00BBB7F4CE /* LyftDeepLink.swift in Sources */,
+				FA0A8F6DF999243A8CD022C949252ED7 /* LyftSDK-dummy.m in Sources */,
+				617575B1EEB50B8A9A7E7E7E6BDE57A5 /* Money+UI.swift in Sources */,
+				67DC0A381098CAC04FD7C0E5013A77A5 /* Money.swift in Sources */,
+				5CE500521E4289A0438BA594DCBF6A66 /* NearbyDriver.swift in Sources */,
+				A2EC57E189B65E22AAF52C8989A7947D /* PricingDetails.swift in Sources */,
+				752B3251975C7390D0DB11C07F2AAE5A /* Result.swift in Sources */,
+				CCB5EEF2EBCB66957735B5884037DCA9 /* RideKind.swift in Sources */,
+				A17DF23968E39606993C5FE3903823BB /* RideType.swift in Sources */,
+				6119E60336D4DE8EBCD2377FB0B4964F /* Safari.swift in Sources */,
+				012766A93B3868A703E5708086AB8600 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3C9472A114155742E5E18A84C8AD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00229DEBB3FE1990EAD7405827E01710 /* Pods-Lyft Wher-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0070F96CF357EFDE129D57F2FFE2331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AD19497BB9D07E220F560F70B9890F /* Pods-Lyft WherTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F59A72CA0EB85F5A6039C51A57B116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9CDE74246D0C4A252A25C219435458 /* Pods-Lyft WherUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BB87CEAC0E83A6C452DAAFE61110EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LyftSDK;
+			target = 8B2C869C1D1CC53E1F4B85F7AAEEE1A0 /* LyftSDK */;
+			targetProxy = A063854B4400DF54869EB6ED98038C81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3A73C5C2FA82E4B31099998150611B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D472C0A3A9D7A8449B516D89EAEDD262 /* Pods-Lyft WherUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lyft WherUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lyft WherUITests/Pods-Lyft WherUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lyft_WherUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50E66513B47774B1F6725B3C680DC975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6DA828A723E08B50285B79C3E26EE6 /* Pods-Lyft Wher.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lyft Wher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lyft Wher/Pods-Lyft Wher.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lyft_Wher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		772573CB33FA5A22F38CD79CD8D4F937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AA512BB1FBA1709307B9E49B531875 /* Pods-Lyft WherTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lyft WherTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lyft WherTests/Pods-Lyft WherTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lyft_WherTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84965EA6A3457D4308DB01968E3C16B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E7AC2486D9E004FB2E8983B869B46C /* LyftSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LyftSDK/LyftSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LyftSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LyftSDK/LyftSDK.modulemap";
+				PRODUCT_NAME = LyftSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D553B1D3872E64C4B6032234DE5A799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3CB080D886B225A9566C4FF581B169 /* Pods-Lyft WherTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lyft WherTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lyft WherTests/Pods-Lyft WherTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lyft_WherTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6FA9A2A5FD93E5A8739B707FF79C010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87D95BFDDCD79B8E3AC2C785E3DB6A0 /* Pods-Lyft WherUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lyft WherUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lyft WherUITests/Pods-Lyft WherUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lyft_WherUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE8DA4C7935BBCF268B537B276B59F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7003321286463380B02B0E4A445F432F /* Pods-Lyft Wher.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lyft Wher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lyft Wher/Pods-Lyft Wher.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lyft_Wher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5F52D54133D318D9B3D6E94454E1A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E7AC2486D9E004FB2E8983B869B46C /* LyftSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LyftSDK/LyftSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LyftSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LyftSDK/LyftSDK.modulemap";
+				PRODUCT_NAME = LyftSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE467D55160742B2817B192FCC8A8F91 /* Build configuration list for PBXNativeTarget "Pods-Lyft Wher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E66513B47774B1F6725B3C680DC975 /* Debug */,
+				AE8DA4C7935BBCF268B537B276B59F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19957D6A07B6B7E81F020066E714196 /* Build configuration list for PBXNativeTarget "Pods-Lyft WherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A73C5C2FA82E4B31099998150611B81 /* Debug */,
+				A6FA9A2A5FD93E5A8739B707FF79C010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F420D73AC440091531FA49890EAAA2B3 /* Build configuration list for PBXNativeTarget "Pods-Lyft WherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772573CB33FA5A22F38CD79CD8D4F937 /* Debug */,
+				8D553B1D3872E64C4B6032234DE5A799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB89FA70E39D93ED1F0F30D5201964F5 /* Build configuration list for PBXNativeTarget "LyftSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F52D54133D318D9B3D6E94454E1A08 /* Debug */,
+				84965EA6A3457D4308DB01968E3C16B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
